@@ -3,6 +3,12 @@ public class Persona {
     private Integer edad;
     private String fechaN;
 
+    public Persona(String nombre, Integer edad, String fechaN) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.fechaN = fechaN;
+    }
+
     public String getNombre() {
         return nombre;
     }
