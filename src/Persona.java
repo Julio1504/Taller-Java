@@ -36,4 +36,7 @@ public class Persona {
     public void calcularFechaNacimiento(){
         System.out.println("Su año de nacimiento fue el: " + (2024 - this.edad));
     }
+    public void mensaje(){
+        System.out.println("Mi nombre es: " + this.nombre + " , Mi edad es: " + this.edad);
+    }
 }
